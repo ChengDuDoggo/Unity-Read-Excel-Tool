@@ -1,10 +1,10 @@
 # Unity-Read-Excel-Tool
 基于Unity读取Excel表格数据工具
-# 1.将工具导入Unity项目中后，Unity编辑器的顶部选项卡应该出现“Tool”选项，如果没有，请重新下载和导入项目
+### 1.将工具导入Unity项目中后，Unity编辑器的顶部选项卡应该出现“Tool”选项，如果没有，请重新下载和导入项目
 
 
 
-# 2.新建的Excel或者存入已有的Excel表格，应当把表格文件存入到：
+### 2.新建的Excel或者存入已有的Excel表格，应当把表格文件存入到：
 
 Assets/Editor/Excel/ExcelFile
 
@@ -14,7 +14,7 @@ Assets/Editor/Excel/ExcelFile/History.xlsx
 
 
 
-# 3.表格中数据填写规则：
+### 3.表格中数据填写规则：
 
 表格中的第一行应该填写数据的键值，例如，
 
@@ -32,7 +32,7 @@ int、string、int、int或int等等
 
 
 
-# 4.确保Excel文件存放路径存放正确和Excel表格数据按规则填写，然后就可以点击选项卡中“Tool”---->“CreateExeclInfo”
+### 4.确保Excel文件存放路径存放正确和Excel表格数据按规则填写，然后就可以点击选项卡中“Tool”---->“CreateExeclInfo”
 
 开始生成Excel文件数据文件，生成成功之后就可以利用表格控制器脚本来读取数据文件中的数据了
 
@@ -53,7 +53,7 @@ public class TestExample : MonoBehaviour
 GetTable<ChineseHistory>().dataDic[6].Time就是得到名为ChineseHistory的表格中的Id为6，键值为Time处的格子中的数据
 
 
-# 5.注意事项：
+### 5.注意事项：
 
 表格名称不是表格文件的名字，而是打开表格后位于左下角的选项卡的名称才是真正的表格名称！
 
@@ -65,11 +65,11 @@ GetTable<ChineseHistory>().dataDic[6].Time就是得到名为ChineseHistory的表
 
 # Unity-Read-Excel-Tool
 Unity-based tool for reading Excel spreadsheet data
-# 1. After importing the Tool into the Unity project, the "Tool" option should appear in the top TAB of the Unity Editor, if not, please re-download and import the project
+### 1. After importing the Tool into the Unity project, the "Tool" option should appear in the top TAB of the Unity Editor, if not, please re-download and import the project
 
 
 
-# 2. A new Excel file or an existing Excel file should be saved to:
+### 2. A new Excel file or an existing Excel file should be saved to:
 
 Assets/Editor/Excel/ExcelFile
 
@@ -79,7 +79,7 @@ Assets/Editor/Excel/ExcelFile/History.xlsx
 
 
 
-# 3. Data filling rules in the form:
+### 3. Data filling rules in the form:
 
 The first row of the table should fill in the key value of the data, for example,
 
@@ -97,7 +97,7 @@ You can view the sample table in the project and understand at a glance, it is v
 
 
 
-# 4. Ensure that the Excel file is stored in the correct path and the Excel data is filled according to the rules. Then click "Tool" ----> "CreateExeclInfo" in the TAB.
+### 4. Ensure that the Excel file is stored in the correct path and the Excel data is filled according to the rules. Then click "Tool" ----> "CreateExeclInfo" in the TAB.
 
 Start generating the Excel file data file, and once it is successfully generated, you can use the Table controller script to read the data in the data file
 
@@ -118,7 +118,7 @@ GetTable<ChineseHistory>().datadic [6].Time indicates that GetTable< name of the
 GetTable<ChineseHistory>().dataDic[6].Time gets the data in the grid with Id 6 and key Time in the table named ChineseHistory
 
 
-# 5. Precautions:
+### 5. Precautions:
 
 The table name is not the name of the table file, but the name of the TAB in the bottom left corner after opening the table is the real table name!
 
